@@ -1,0 +1,28 @@
+2025-02-12 10:15:23 INFO  [APP] Application started successfully.
+2025-02-12 10:16:05 WARN  [DB] Database connection is slow.
+2025-02-12 10:16:45 ERROR [AUTH] Failed login attempt for user 'admin'.
+2025-02-12 10:17:30 INFO  [APP] Processing user request: ID=4567.
+2025-02-12 10:18:02 DEBUG [CACHE] Cache miss for key 'user:4567'.
+2025-02-12 10:18:15 INFO  [APP] User request processed successfully.
+2025-02-12 10:19:40 ERROR [SERVER] Unexpected shutdown detected!
+2025-02-12 10:20:12 INFO  [APP] Restarting application after failure.
+2025-02-12 10:21:05 DEBUG [DB] Query executed: SELECT * FROM users WHERE id=4567.
+2025-02-12 10:22:30 INFO  [USER] User 'johndoe' logged in successfully.
+2025-02-12 10:23:10 WARN  [SECURITY] Multiple failed login attempts detected.
+2025-02-12 10:24:00 ERROR [AUTH] Failed login attempt for user 'root'.
+2025-02-12 10:25:20 INFO  [API] Received request: GET /api/orders/1234.
+2025-02-12 10:26:05 DEBUG [API] Response sent: 200 OK for request /api/orders/1234.
+2025-02-12 10:27:45 INFO  [EMAIL] Sent password reset email to user 'johndoe'.
+2025-02-12 10:28:30 WARN  [STORAGE] Disk space usage at 90%.
+2025-02-12 10:29:50 ERROR [SERVER] Service timeout occurred on port 8080.
+2025-02-12 10:30:15 INFO  [MONITOR] Health check passed for all services.
+2025-02-12 10:31:40 DEBUG [CACHE] Cache refreshed for key 'config-settings'.
+2025-02-12 10:32:55 INFO  [USER] User 'alice' logged out.
+2025-02-12 10:34:10 ERROR [DB] Deadlock detected in transaction #7892.
+2025-02-12 10:35:25 WARN  [SECURITY] Unauthorized access attempt to /admin.
+2025-02-12 10:36:40 DEBUG [APP] Memory usage: 75% - Normal.
+2025-02-12 10:37:55 INFO  [SERVER] Server started listening on port 8080.
+2025-02-12 10:38:30 ERROR [PAYMENT] Payment processing failed for order #5678.
+2025-02-12 10:39:10 WARN  [BACKUP] Last backup was over 48 hours ago.
+2025-02-12 10:40:20 INFO  [CRON] Scheduled job 'daily_report' executed successfully.
+2025-02-12 10:41:30 ERROR [NETWORK] Lost connection to database server.
